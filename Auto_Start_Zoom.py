@@ -10,7 +10,7 @@ while True: #running the loop until the scheduled time
     Time = today_date.strftime("%I:%M:%S %p")
 
     f = open("Links.txt") #opening and accessing links of the meetings
-    Links_Pass = f.readlines()
+    Links = f.readlines()
 
     '''
     You can add code for more meetings using the code as below with elif statement and time for the meeting.
@@ -20,50 +20,51 @@ while True: #running the loop until the scheduled time
     if Time == "07:59:30 AM": #time for the first meeting
         # Change the time and name according to your need
         print("Initializing Computer Class...")
-        Computer = Links_Pass[0]
+        Computer = Links[0]
         
         wb.open(Computer)
         print("Computer Class Initialized Successfully !")
-        time.sleep(2000)
+        time.sleep(2000) #time between subsequent meeting
 
-    elif Time == "08:36:00 AM":#time for the second meeting
+    elif Time == "08:36:00 AM": #time for the second meeting
         # Change the time and name according to your need
         print("Initializing English Class...")
-        English = Links_Pass[1]
+        English = Links[1]
         
         wb.open(English)
         print("English Class Initialized Successfully !")
 
-        time.sleep(2000)
+        time.sleep(2000) #time between subsequent meeting
 
-    elif Time == "9:10:00 AM":#time for the third meeting
+    elif Time == "9:10:00 AM": #time for the third meeting
         # Change the time and name according to your need
         print("Initializing Chemistry Class...")
 
-        Chemistry = Links_Pass[2]
+        Chemistry = Links[2]
 
         wb.open(Chemistry)
         print("Chemistry Class Initialized Successfully !")
-        time.sleep(2280)
+        time.sleep(2280) #time between subsequent meeting
 
-    elif Time == "09:51:00 AM":#time for the fourth meeting
+    elif Time == "09:51:00 AM": #time for the fourth meeting
         # Change the time and name according to your need
         print("Initializing Physics Class...")
-        Physics = Links_Pass[3]
+        Physics = Links[3]
 
 
         wb.open(Physics)
         print("Physics Class Initialized Successfully !")
-        time.sleep(2000)
+        time.sleep(2000) #time between subsequent meeting
 
-    elif Time == "10:26:00 PM AM":#time for the last meeting
+    elif Time == "10:26:00 PM AM": #time for the last meeting
         # Change the time and name according to your need
         print("Initializing Maths Class...")
-        Maths = Links_Pass[4]
+        Maths = Links[4]
         
         wb.open(Maths)
         print("Maths Class Initialized Successfully !")
-        quit
+        quit()
     
     else:
         pass
+
