@@ -16,8 +16,10 @@ Install this by typing the following code into Powershell or Terminal:
 Just import the <em>.py</em> file, change the following parts in the <i>data (links.txt)</i> and the script:
 <ul>
   <li>Change the timings of the meeting in the <i>.py</i> file (if necessary add more meetings by creating more <em>elif</em> statements but the code will be same as others).</li>
-![Changing time in elif statement/adding more elif statements](/assets/images/elif.jpg)
+<img src = '/.imgs/elif.jpg/' alt = 'Changing time in elif statement/adding more elif statements'>
   <li>Change the time between subsequent meetings as continuous execution of the program may lead to unnecessary memory usage.
     Make sure the set the interval of 2-3 minutes before scheduled meet.</li>
+<img src = '/.imgs/time.jpg/' alt = 'Changing time interval between subsequent meetings'>
   <li>Change the meeting links in the <em>Links.txt</i> (mind the sequence of the links according to time)</li>
+<img src = '/.imgs/links.jpg/' alt = 'Changing links of zoom meeting.'>
 </ul>
