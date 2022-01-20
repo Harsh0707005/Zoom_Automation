@@ -19,7 +19,7 @@ Just import the <em>.py</em> file, change the following parts in the <i>data (li
 <img src = '/.imgs/elif.jpg/' alt = 'Changing time in elif statement/adding more elif statements'>
   <li>Change the time between subsequent meetings as continuous execution of the program may lead to unnecessary memory usage.
     Make sure the set the interval of 2-3 minutes before scheduled meet.</li>
-<img src = '/.imgs/time.jpg/' alt = 'Changing time interval between subsequent meetings'>
+<img src = '/.imgs/time.png/' alt = 'Changing time interval between subsequent meetings'>
   <li>Change the meeting links in the <em>Links.txt</i> (mind the sequence of the links according to time)</li>
-<img src = '/.imgs/links.jpg/' alt = 'Changing links of zoom meeting.'>
+<img src = '/.imgs/links.png/' alt = 'Changing links of zoom meeting.'>
 </ul>
