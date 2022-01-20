@@ -1,5 +1,5 @@
 # Zoom Automation
-There are many students and professionals who are too lazy to join the Zoom Meeting manually <i>(including me ;P )</i>.
+There are many students and professionals who are too lazy to join the Zoom Meeting manually <i>(including me :stuck_out_tongue_winking_eye: )</i>.
 <br>So this is a simple python script that lets you join a zoom meeting at a scheduled time, without any human interference.
 <br>
 <h2> Prerequisites</h2>
