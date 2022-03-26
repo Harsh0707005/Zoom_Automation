@@ -19,12 +19,12 @@ Install this by typing the following code into Powershell or Terminal:
 
 Just import the <em>.py</em> file, change the following parts in the <i>data (links.txt)</i> and the script:
 <ul>
-  <li>Change the timings of the meeting in the <i>.py</i> file (if necessary add more meetings by creating more <em>elif</em> statements but the code will be same as others).</li>
+  <li>Change the timings of the meeting in the <i>.py</i> file (if necessary add more meetings by creating more <em>elif</em> statements but rest if the code will remain same).</li>
   <br><br>
 <img src = '/.imgs/elif.jpg/' alt = 'Changing time in elif statement/adding more elif statements'>
   <br><br>
   <li>Change the time between subsequent meetings as continuous execution of the program may lead to unnecessary memory usage.
-    Make sure the set the interval of 2-3 minutes before scheduled meet.</li>
+    Make sure to set the interval of 2-3 minutes before scheduled meet.</li>
   <br><br>
 <img src = '/.imgs/time.png/' alt = 'Changing time interval between subsequent meetings'>
   <br><br>
